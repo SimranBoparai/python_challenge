@@ -57,6 +57,9 @@ Instructions
 ## Acknowledgements
 
 I would like to mention the following individual and resources for their assistance and support throughout this assignment:
+
     - UCB Tutor for providing guidance on the PyBank scripting techniques and helping me debug my original script. 
+    
     - Ask the BCS Learning Assistant to guide me through a debugging session for a part of the PyPoll script. 
+    
     - Xpert Learning Assistant helped me understand and break down common script formats such as "for" and "if" statements in Python 
