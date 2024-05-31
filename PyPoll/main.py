@@ -31,7 +31,8 @@ def read_csv_count_votes(csvpath):
         ## Read each row in the csv file and calculate the values
         for row in csvreader:
             total_votes += 1
-            print(total_votes)
+            #print(f"Total Votes: {total_votes}")
+            #print(total_votes)
 
         ## Write a if statement to determine a list of candidates who received votes
             candidate = row[CANDIDATE_INDEX]
@@ -53,7 +54,7 @@ def read_csv_count_votes(csvpath):
                 
 
     ## Print each calculation 
-    print(total_votes)
+    print(f"Total Votes: {total_votes}")
     print(candidate_votes)
     print(percentage_votes)
     print(election_winner)
